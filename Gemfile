@@ -30,7 +30,7 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
 
 # graphql
-gem 'graphql', '1.11.6'
+gem 'graphql', '~> 1.13'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -48,3 +48,4 @@ group :development do
   # gem "spring"
 end
 
+gem "graphiql-rails", group: :development
